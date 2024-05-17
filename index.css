@@ -1,0 +1,297 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(231, 6, 6);
+}
+h1 {
+  color:black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+/*    HEADER   */
+header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  gap: 1rem;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 0;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+header nav a:hover {
+  color: white;
+}
+.user-panel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+input[name="search"] {
+  width: 20vw;
+  max-width: 6rem;
+  padding: 0.3rem 30px 0.3rem 0px;
+}
+.search-icon {
+  width: 1rem;
+  margin-left: -40px;
+}
+.notification-icon {
+  width: 1.5rem;
+  border-radius: 100%;
+}
+.user-image {
+  width: 2rem;
+  border-radius: 20%;
+}
+/*      MAİN SECTİON   */
+
+main,
+footer {
+  padding: 1rem;
+}
+.hero-video {
+  background: url(https://a.cdn-hotels.com/gdcs/production91/d1595/7d260344-c047-407d-b765-648581bb8d9a.jpg);
+  background-size: cover;
+  color: aliceblue;
+  padding: 2rem;
+  aspect-ratio: 7/5;
+  display: flex;
+  align-items: flex-end;
+}
+.hero-video h2 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.movie-info {
+  width: 60%;
+}
+.rating-section i {
+  color: red;
+}
+.rating {
+  padding: 0.2rem 0.3rem;
+  border: 2px solid white;
+  border-radius: 0.3rem;
+  margin: 0 1rem;
+}
+.hero-movie-details {
+  font-weight: 500;
+  margin: 0 1rem;
+}
+.hero-movie-details p {
+  font-size: 0.9em;
+  margin: 0.3rem 0;
+}
+.play-button {
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  background: red;
+  font-weight: lighter;
+  color: white;
+  display: inline-block;
+  padding: 0.7rem 2.3rem;
+}
+.play-button i {
+  margin-left: -1.5rem;
+  margin-right: 0.3rem;
+}
+.button {
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  background: red;
+  font-weight: lighter;
+  color: white;
+  display: inline-block;
+  padding: 0.3rem 1.2rem;
+}
+.button i {
+  padding: 0;
+  border-radius: 0.5rem;
+}
+/*       SUGGESTİON SECTİON    */
+.suggestion-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+h4 {
+  margin-top: -1;
+}
+.suggestion-container {
+  display: flex;
+  justify-content: space-between;
+}
+.suggestion-card {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 0.5rem;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ1TZ7yJnt_1yo5tIfHYi8eS2qb9dP9wmng&s);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+.suggestion-card .rating {
+  margin-left: 0;
+}
+.suggestion-card .rating-section {
+  margin-bottom: 1rem;
+  font-size: 9;
+}
+.btn-small {
+  font-size: 0.5rem;
+  border-radius: 10%;
+}
+.suggestion-card:nth-child(2) {
+  background: url(https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdz8iw_AQEQORnfePd3gARIYpO9AIZTMdKgkJon0W95bJaQJvttmGuAM3TZhF9FpUObSsaIg8Cdf7QwmY-L1mkNpp5ofB-6-8SaM.jpg?r=b5c);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+.suggestion-card:nth-child(3) {
+  background: url(https://m.media-amazon.com/images/M/MV5BNDY0YmZkMzEtZTdmOS00NDQ5LWFmNTUtNjIzZDIwODc1NTVkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+.suggestion-card1 {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 0.5rem;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ1TZ7yJnt_1yo5tIfHYi8eS2qb9dP9wmng&s);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+
+.suggestion-card1 .rating {
+  margin-left: 0;
+}
+.suggestion-card1 .rating-section {
+  margin-bottom: 1rem;
+  font-size: 9;
+}
+.suggestion-card1:nth-child(1) {
+  background: url(https://cdn1.ntv.com.tr/gorsel/RraJwCAB-EeH6VXjriPc6Q.jpg?width=1000&mode=crop&scale=both);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+.suggestion-card1:nth-child(2) {
+  background: url(https://eglencelibilim.com/wp-content/uploads/2022/11/gece_gunduz_deneyi.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+.suggestion-card1:nth-child(3) {
+  background: url(https://diveng.rosselcdn.net/sites/default/files/dpistyles/ena_16_9_extra_big/node_6215/16305/public/thumbnails/image/friends_copie.jpg?itok=lXPYn7iK1698600882);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+.suggestion-card2 {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 0.5rem;
+  background: url(https://diveng.rosselcdn.net/sites/default/files/dpistyles/ena_16_9_extra_big/node_6215/16305/public/thumbnails/image/friends_copie.jpg?itok=lXPYn7iK1698600882);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+.suggestion-card2 .rating {
+  margin-left: 0;
+}
+.suggestion-card2 .rating-section {
+  margin-bottom: 1rem;
+  font-size: 9;
+}
+.suggestion-card2:nth-child(1) {
+  background: url(https://www.salom.com.tr/uploads/news/b_101120217TnPrIQTVpj5bGRLuJRCA04hU.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+.suggestion-card2:nth-child(2) {
+  background: url(https://imgs.alem.com.tr/Documents/Alem_Dergi/images/2022/03/10/pera-palasta-gece-yarisi--676.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+.suggestion-card2:nth-child(3) {
+  background: url(https://media-cdn.t24.com.tr/media/library/2023/07/1689846445667-yeni-proje.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  width: 30%;
+}
+
+/*     FOOTER  */
+
+footer {
+  display: flex;
+  gap: 0.1rem;
+}
+.footer-nav {
+  flex: 1;
+}
+footer h5 {
+  margin: 0 0.45em 0.5em;
+}
+footer nav {
+  display: flex;
+  gap: 1rem;
+}
+footer img {
+  height: 3em;
+}
+footer nav a {
+  text-decoration: none;
+  color: black;
+  border: solid black 2px;
+  padding: 2px;
+  margin-bottom: 20px;
+}
+footer nav a:hover {
+  color:white;
+}
+
+footer p {
+  display: inline-block;
+  padding: 5px;
+}
+
+
+@media (max-width: 992px) {
+  header {
+    flex-wrap: wrap;
+  }
+  header nav {
+    width: 100%;
+    order: 1;
+    justify-content: center;
+    gap: 2rem;
+    display: flex;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .footer-nav {
+    width: 100%;
+  }
+}
